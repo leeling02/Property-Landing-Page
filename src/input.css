@@ -29,13 +29,28 @@ p {
     top:65%; 
 }
 
+/*Section-3*/
+#section3 {
+    background: linear-gradient(180deg, black 60%, #04111D 40%);
+}
+#section3 .product {
+    flex: 0 1 100%;
+}
 
 
 
 
-@media screen and (min-width: 1280px) {
+
+
+@media screen and (min-width: 1024px) {
     #menu {
         visibility: visible;
     }
+    #section3 .product {
+        flex: 0 1 calc(33.333% - 20px);
+    
+    }
+    
+
     
   }
