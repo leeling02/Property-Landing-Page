@@ -7,6 +7,32 @@
     padding:0;  
 }
 
+p {
+    font-size: 1rem;
+    color: white;
+}
+
+/*Section-2*/
+
+#section2 .map {
+    top:20%; 
+}
+#element1 {
+    top:27%;
+    left:25%;
+}
+#element2 {
+    top:32%; 
+    left:70%; 
+}
+#subheading {
+    top:65%; 
+}
+
+
+
+
+
 @media screen and (min-width: 1280px) {
     #menu {
         visibility: visible;
